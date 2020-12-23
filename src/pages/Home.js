@@ -1,5 +1,5 @@
 import "../App.css";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import { Grid, Typography, Button } from "@material-ui/core";
 import Logo from "../images/logo.png";
 
