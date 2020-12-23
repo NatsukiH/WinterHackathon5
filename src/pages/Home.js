@@ -1,6 +1,6 @@
 import "../App.css";
 import Header from "../components/Header";
-import { Grid, Box, Button } from "@material-ui/core";
+import { Grid, Typography, Button } from "@material-ui/core";
 import Logo from "../images/logo.png";
 
 const LogoComponent = () => {
@@ -13,7 +13,13 @@ function Home() {
       <header className="App-header">
         <LogoComponent />
       </header>
-      <Grid container alignItems="center" justify="center" spacing={5}>
+
+      <Grid container alignItems="center" justify="center" spacing={4}>
+        <Grid item xs={12}>
+          <Typography variant="h6">
+            突如訪れた無言の時間，あなたならどうする？
+          </Typography>
+        </Grid>
         <Grid item xs={12}>
           <Button
             variant="contained"
