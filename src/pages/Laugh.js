@@ -2,14 +2,14 @@ import logo from "../logo.svg";
 import "../App.css";
 import Header from "../components/Header";
 
-function Topic() {
+function Laugh() {
   return (
     <div className="App">
       <Header />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/Topic.js</code> and save to reload.
+          Edit <code>src/Laugh.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -24,4 +24,4 @@ function Topic() {
   );
 }
 
-export default Topic;
+export default Laugh;
