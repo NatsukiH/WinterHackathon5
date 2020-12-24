@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import ReactHowler from "react-howler";
+import IconButton from "@material-ui/core/IconButton";
+import MusicNoteSharpIcon from "@material-ui/icons/MusicNoteSharp";
+import MusicOffSharpIcon from "@material-ui/icons/MusicOffSharp";
+import PhoneRing from "../assets/Telephone-Ringtone02-1.mp3";
 
 class Audio extends Component {
   // This sound file may not work due to cross-origin setting
@@ -32,12 +36,16 @@ class Audio extends Component {
     return (
       <div>
         <ReactHowler
-          src="http://goldfirestudios.com/proj/howlerjs/sound.ogg"
+          src={PhoneRing}
           playing={this.state.playing}
           loop={this.state.loop}
         />
-        <button onClick={this.handlePlay}>Play</button>
-        <button onClick={this.handlePause}>Pause</button>
+        <IconButton>
+          <MusicNoteSharpIcon fontSize="large" onClick={this.handlePlay} />
+        </IconButton>
+        <IconButton>
+          <MusicOffSharpIcon fontSize="large" onClick={this.handlePause} />
+        </IconButton>
       </div>
     );
   }
