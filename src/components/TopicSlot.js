@@ -60,7 +60,7 @@ function TopicSlot() {
         <Grid container alignItems="center" justify="center" spacing={4}>
           <Paper
             style={{
-              width: "40vw",
+              width: "35vw",
               padding: "15px",
               border: "5px solid #298D1A",
             }}
