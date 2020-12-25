@@ -1,25 +1,26 @@
-import logo from "../logo.svg";
 import "../App.css";
+import { Grid, Typography } from "@material-ui/core";
 import Header from "../components/Header";
+import PageTitle from "../components/PageTitle";
+import TopicSlot from "../components/TopicSlot";
 
 function Topic() {
   return (
     <div className="App">
       <Header />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/Topic.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Grid container alignItems="center" justify="center" spacing={4}>
+        <Grid item xs={12}>
+          <PageTitle name="新しい話題を振る" />
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="body1">
+            この現状を打開する話題は...これだ！
+          </Typography>
+        </Grid>
+        <Grid item xs={12}>
+          <TopicSlot />
+        </Grid>
+      </Grid>
     </div>
   );
 }
