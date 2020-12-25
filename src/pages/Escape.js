@@ -1,13 +1,25 @@
-import logo from "../logo.svg";
 import "../App.css";
+import { Grid } from "@material-ui/core";
 import Header from "../components/Header";
-import Audio from "../components/Audio";
+import PageTitle from "../components/PageTitle";
+import AudioPhoneRing from "../components/AudioPhoneRing";
+import AudioDoorBell from "../components/AudioDoorBell";
 
 function Escape() {
   return (
     <div className="App">
       <Header />
-      <Audio />
+      <Grid container alignItems="center" justify="center" spacing={4}>
+        <Grid item xs={12}>
+          <PageTitle name="脱出する" />
+        </Grid>
+        <Grid item xs={12}>
+          <AudioPhoneRing />
+        </Grid>
+        <Grid item xs={12}>
+          <AudioDoorBell />
+        </Grid>
+      </Grid>
     </div>
   );
 }
