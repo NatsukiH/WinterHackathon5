@@ -42,10 +42,12 @@ class AudioPhoneRing extends Component {
           loop={this.state.loop}
         />
         <Grid container alignItems="center" justify="center">
-          <Paper style={{ width: "35vw", minWidth: "450px" }}>
+          <Paper style={{ width: "35vw", minWidth: "350px" }}>
             <Grid container alignItems="center" justify="center">
               <Grid item xs={8}>
-                <Typography>「あ，電話がかかってきた！」 ※電話音</Typography>
+                <Typography>
+                  「あ，電話がかかってきた！」<br></br> ※電話音
+                </Typography>
               </Grid>
               <Grid item xs={2}>
                 <IconButton>

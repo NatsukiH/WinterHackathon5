@@ -25,7 +25,11 @@ function Home() {
             color="primary"
             href="/topic"
             size="large"
-            style={{ backgroundColor: "#298D1A", width: "30vw" }}
+            style={{
+              backgroundColor: "#298D1A",
+              width: "30vw",
+              minWidth: "350px",
+            }}
           >
             新しい話題を振る
           </Button>
@@ -36,7 +40,11 @@ function Home() {
             color="primary"
             href="/escape"
             size="large"
-            style={{ backgroundColor: "#298D1A", width: "30vw" }}
+            style={{
+              backgroundColor: "#298D1A",
+              width: "30vw",
+              minWidth: "350px",
+            }}
           >
             脱出する
           </Button>
@@ -47,7 +55,11 @@ function Home() {
             color="primary"
             href="/laugh"
             size="large"
-            style={{ backgroundColor: "#298D1A", width: "30vw" }}
+            style={{
+              backgroundColor: "#298D1A",
+              width: "30vw",
+              minWidth: "350px",
+            }}
           >
             笑いを取る
           </Button>

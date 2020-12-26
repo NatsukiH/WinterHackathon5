@@ -63,7 +63,7 @@ function TopicSlot() {
               width: "35vw",
               padding: "15px",
               border: "5px solid #298D1A",
-              minWidth: "450px",
+              minWidth: "350px",
             }}
           >
             <Typography variant="h6">

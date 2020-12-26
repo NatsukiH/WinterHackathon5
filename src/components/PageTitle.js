@@ -8,7 +8,7 @@ function PageTitle(props) {
           backgroundColor: "#298D1A",
           width: "35vw",
           margin: "5vh 0",
-          minWidth: "450px",
+          minWidth: "350px",
         }}
       >
         <Typography style={{ color: "#FFFFFF" }}>{props.name}</Typography>

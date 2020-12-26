@@ -4,7 +4,7 @@ import GetAppIcon from "@material-ui/icons/GetApp";
 
 function DownloadImage(props) {
   const LogoComponent = () => {
-    return <img src={props.url} alt="ロゴ" width="40%" min-width="450px" />;
+    return <img src={props.url} alt="ロゴ" width="40%" min-width="350px" />;
   };
 
   return (

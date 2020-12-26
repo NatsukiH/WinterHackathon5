@@ -42,10 +42,12 @@ class AudioDoorBell extends Component {
           loop={this.state.loop}
         />
         <Grid container alignItems="center" justify="center">
-          <Paper style={{ width: "35vw", minWidth: "450px" }}>
+          <Paper style={{ width: "35vw", minWidth: "350px" }}>
             <Grid container alignItems="center" justify="center">
               <Grid item xs={8}>
-                <Typography>「あれ，宅配かな？」 ※インターホン音</Typography>
+                <Typography>
+                  「あれ，宅配かな？」<br></br>※インターホン音
+                </Typography>
               </Grid>
               <Grid item xs={2}>
                 <IconButton>
