@@ -1,4 +1,5 @@
-import { Breadcrumbs } from "@material-ui/core";
+import "../App.css";
+import { Breadcrumbs, Typography } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import Logo from "../images/logo.png";
 
@@ -10,10 +11,18 @@ function Header() {
     <header className="App-header">
       <LogoComponent />
       <Breadcrumbs aria-label="breadcrumb">
-        <Link to="/">Home</Link>
-        <Link to="/topic">新しい話題を振る</Link>
-        <Link to="/escape">脱出する</Link>
-        <Link to="/laugh">笑いを取る</Link>
+        <Link to="/">
+          <Typography variant="button">Home</Typography>
+        </Link>
+        <Link to="/topic">
+          <Typography variant="button">新しい話題を振る</Typography>
+        </Link>
+        <Link to="/escape">
+          <Typography variant="button">脱出する</Typography>
+        </Link>
+        <Link to="/laugh">
+          <Typography variant="button">笑いを取る</Typography>
+        </Link>
       </Breadcrumbs>
     </header>
   );

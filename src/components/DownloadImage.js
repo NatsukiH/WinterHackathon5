@@ -1,4 +1,6 @@
+import "../App.css";
 import { Typography, Paper, Grid, Button } from "@material-ui/core";
+import GetAppIcon from "@material-ui/icons/GetApp";
 
 function DownloadImage(props) {
   const LogoComponent = () => {
@@ -15,9 +17,10 @@ function DownloadImage(props) {
           variant="contained"
           size="large"
           color="primary"
+          startIcon={<GetAppIcon />}
           style={{ backgroundColor: "#298D1A" }}
         >
-          <a href={props.url} download={props.img}>
+          <a href={props.url} download={props.img} style={{ color: "white" }}>
             Download
           </a>
         </Button>
