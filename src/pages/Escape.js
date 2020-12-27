@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import PageTitle from "../components/PageTitle";
 import AudioPhoneRing from "../components/AudioPhoneRing";
 import AudioDoorBell from "../components/AudioDoorBell";
+import AudioHotaru from "../components/AudioHotaru";
 
 function Escape() {
   return (
@@ -18,6 +19,9 @@ function Escape() {
         </Grid>
         <Grid item xs={12}>
           <AudioDoorBell />
+        </Grid>
+        <Grid item xs={12}>
+          <AudioHotaru />
         </Grid>
       </Grid>
     </div>
