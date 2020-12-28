@@ -16,7 +16,7 @@ QRコードからでも
 # 仕様技術
 React，Material UI，Firebase
 
-# 詳細
+# アプリケーションの詳細
 こちらのnoteに詳しく書いてます．  
 https://note.com/_naa_/n/n81ae71e9f5ba
 
