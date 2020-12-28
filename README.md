@@ -6,6 +6,8 @@
 QRコードからでも  
 ![qr_green](https://user-images.githubusercontent.com/39262759/103164577-9b98d480-4850-11eb-92c9-4d8263749cf1.png)
 
+
+
 # 概要
 [ウインターハッカソンvol.5](https://talent.supporterz.jp/events/c37a27fd-e763-4e2e-b037-a6f041048268/)で制作した作品です．  
 オンライン飲み会が流行する今，ふと会話が途切れて無言の気まずい時間が少なからず発生しているはず．  
@@ -13,6 +15,10 @@ QRコードからでも
 
 # 仕様技術
 React，Material UI，Firebase
+
+# 詳細
+こちらのnoteに詳しく書いてます．  
+https://note.com/_naa_/n/n81ae71e9f5ba
 
 # 資料
 ハッカソンでの発表資料：https://docs.google.com/presentation/d/1gWsJNISLcjqB-xOjQ2Q_3WNCV0lOzCmzJ_D7ZpU1BgY/edit?usp=sharing
